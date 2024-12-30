@@ -2,7 +2,7 @@
 MecanumDriver mecanum = MecanumDriver(9, 8, 12, 13, 11, 10, 46, 21);
 
 void setup() {
-  mecanum.begin();
+  mecanum.begin();//我在这里拉屎
 }
 
 void loop() {
